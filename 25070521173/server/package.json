@@ -1,0 +1,7 @@
+{
+  "name": "careline-server",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node --watch --env-file=.env index.js", "start": "node --env-file=.env index.js", "seed": "node --env-file=.env seed.js", "test": "node --test auth.test.js", "test:integration": "node --env-file=.env --test integration.test.js" },
+  "dependencies": { "express": "^5.1.0", "jsonwebtoken": "^9.0.2", "mongoose": "^8.19.0" }
+}
